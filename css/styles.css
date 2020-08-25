@@ -1,0 +1,19 @@
+.content {
+    padding: 10px 10%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+td {
+    width: 20% ;
+}
+
+td:nth-child(n+2) {
+    text-align: center;
+}
